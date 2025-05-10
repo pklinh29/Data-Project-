@@ -5,9 +5,12 @@
 - [Data Analysis](#data-analysis)
 
 
-### Project Overview
+### Background
 --- 
-From the raw input data, I proceeded to process, clean, and analyze the data using SQL Programming through the PostgreSQL database       management system (creating stored procedures to execute the steps sequentially in an automated manner). Finally, I used Tableau to      visualize dashboards and uncover insights as well as propose solutions for the business.
+The CFO wants to monitor the overall business performance of the entire company and its regions to assess operational efficiency and identify existing issues. Additionally, he wants to evaluate the performance of ASMs.
+Understanding the CFO’s objectives and requirements, I initiated this project to address those needs.
+
+### 
 
 ### Data Analysis
 ---
