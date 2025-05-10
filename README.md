@@ -7,8 +7,9 @@
 
 ### Project Overview
 
-### Data Sources
 
+### Data Sources
+---
 - Excel : Data cleaning
   - [Download Here](https://microsoft.com)
 - PostgreSQL : Data Analysis
@@ -37,3 +38,7 @@ select * from finalproject.kpi_asm_data
 
 ### References 
 - Stackoverflow...
+
+**bold**
+
+*italic*
