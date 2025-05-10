@@ -45,19 +45,8 @@ From the raw input data, I proceeded to process, clean, and analyze the data usi
   - Dashboard ***“ASM’s Performance Evaluation Dashboard”***: A dashboard evaluating ASMs, illustrating the distribution of ASMs by region each month through charts, with insights and recommended actions.
             
 
-   - Refer to : [My_Dashboards](https://public.tableau.com/shared/TCDPPZMWY?:display_count=n&:origin=viz_share_link)
-
-### Exploratory Data Analysis 
-- What is the top sale trend ?
-
-### Result/Findings
-- Revenue and profit in 01/2023 is higher than those in 02/2023
-
-### Recommendations 
-- Take actions
+   - Refer to : [My Dashboards](https://public.tableau.com/shared/TCDPPZMWY?:display_count=n&:origin=viz_share_link)
 
 
-### References 
-- Stackoverflow...
 
 
