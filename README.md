@@ -1,5 +1,6 @@
 # Data Project
 ## Table of contents :
+---
 - [Project Overview](#project-overview)
 - [Data Analysis](#data-analysis)
 
