@@ -18,7 +18,7 @@ From the raw input data, I proceeded to process, clean, and analyze the data usi
 - **PostgreSQL** : Data Analysis
   - This section is divided into two parts:
     - **First**, I processed the data to create target tables (*core tables*), which are cumulative figures aggregated by month.
-      - [PostgreSQL_main](PostgreSQL_main.docx)
+      - [PostgreSQL_main](PostgreSQL_main .docx)
         
     - **Second**, based on these core tables with cumulative monthly data, I proceeded to remodel the data. From the cumulative monthly        data, I modeled the data into separate monthly figures, not based on cumulative data, to facilitate easy comparison of data across
       across months and to uncover insights more effectively.
