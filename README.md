@@ -32,9 +32,9 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
 - First, I identified the desired output to determine the entities to be created and the necessary attributes for each entity.
   - *Creating Dim Tables*:
       - Dim tables are used to store basic information for easier data retrieval. I constructed these tables directly in Excel.
-        - Refer to: file "dim_city_structure.xlsx": Information about provinces/cities and regions.
-        - Refer to: file "dim_rpt_criteria_structure.xlsx": Information about the structure of criteria for evaluating business performance.
-        - Refer to: file "dim_rpt_rank_asm.xlsx": Information about the criteria for evaluating the performance of each ASM.
+        - Refer to: file *"dim_city_structure.xlsx"*: Information about provinces/cities and regions.
+        - Refer to: file *"dim_rpt_criteria_structure.xlsx"*: Information about the structure of criteria for evaluating business performance.
+        - Refer to: file *"dim_rpt_rank_asm.xlsx"*: Information about the criteria for evaluating the performance of each ASM.
           
   - *Creating Fact Tables*:
       - Fact tables store quantitative values. I created these tables using SQL commands directly in DBeaver.
