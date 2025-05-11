@@ -10,17 +10,33 @@
 The CFO wants to monitor the overall business performance of the entire company and its regions to assess operational efficiency and identify existing issues. Additionally, he wants to evaluate the performance of ASMs.
 Understanding the CFO’s objectives and requirements, I initiated this project to address those needs.
 
-### 
-
-### Data Analysis
----
-- **Excel** : Data Source
-  - File *"fact_kpi_month_raw_data"*: Source data on credit card by customer at the end of each month.
-  - File *"fact_txn_month_raw_data"*: Source data on monthly transactions posted to the General Ledger.
-  - File *"kpi_asm_data"*: Monthly business performance data by each ASM (Area Sales Manager).
+### Data Source
+- File *"fact_kpi_month_raw_data"*: Source data on credit card by customer at the end of each month.
+- File *"fact_txn_month_raw_data"*: Source data on monthly transactions posted to the General Ledger.
+- File *"kpi_asm_data"*: Monthly business performance data by each ASM (Area Sales Manager).
     
-- **PostgreSQL** : Data Analysis 
-  
+### Steps:
+**1. Data Import**:
+- I converted data from *xlsx* files to *csv* format and imported them into DBeaver using direct operations on DBeaver's interface.
+
+**2. Creating Dim and Fact Tables**:
+- First, I identified the desired output to determine the entities to be created and the necessary attributes for each entity.
+  - *Creating Dim Tables*:
+      - Dim tables are used to store basic information for easier data retrieval. I constructed these tables directly in Excel.
+  - *Creating Fact Tables*:
+      - Fact tables store quantitative values. I created these tables using SQL commands directly in DBeaver.
+
+**3. Writing Stored Procedures**:
+- I developed stored procedures to automatically load raw data into the existing dim and fact tables.  
+
+
+
+
+
+
+
+
+
   - This section is divided into two parts:
     - **First**, I processed the data to create target tables (*core tables*), which are cumulative figures aggregated by month.
       - Refer to file : ***"PostgreSQL_main.docx"***
