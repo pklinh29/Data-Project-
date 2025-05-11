@@ -3,6 +3,7 @@
 ---
 - [Background](#background)
 - [Data Source](#data-source)
+- [Flow Chart](#flow-chart)
 - [Steps](#steps)
 - [Achievements](#achievements)
 
@@ -17,6 +18,10 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
 - File *"fact_kpi_month_raw_data"*: Source data on credit card by customer at the end of each month.
 - File *"fact_txn_month_raw_data"*: Source data on monthly transactions posted to the General Ledger.
 - File *"kpi_asm_data"*: Monthly business performance data by each ASM (Area Sales Manager).
+
+### Flow Chart 
+---
+![image_alt](https://github.com/pklinh29/Data-Project-/blob/01d7d7a48f6567a7f8d475ea6fcde100c8d21487/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202025-05-11%20lu%CC%81c%2011.06.45.png)
     
 ### Steps:
 ---
