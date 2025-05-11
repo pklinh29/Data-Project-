@@ -39,7 +39,8 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
   - *Creating Fact Tables*:
       - Fact tables store quantitative values. I created these tables using SQL commands directly in DBeaver.
         - Refer to : Section 1 in file *"PostgreSQL_main.docx"*
-        - Refer to : Section 1 in file *"PostgreSQL_modeling_data.docx"*        
+        - Refer to : Section 1 in file *"PostgreSQL_modeling_data.docx"*
+              
 **3. Writing Stored Procedures**
 - I developed stored procedures to automatically load raw data into the existing dim and fact tables (data accumulated monthly). 
   - Refer to : Section 2 in file *"PostgreSQL_main.docx"*
