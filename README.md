@@ -13,22 +13,45 @@
 The CFO wants to monitor the overall business performance of the entire company and its regions to assess operational efficiency and identify existing issues. Additionally, he wants to evaluate the performance of ASMs.
 Understanding the CFO’s objectives and requirements, I initiated this project to address those needs.
 
-### Data Source
----
-- File *"fact_kpi_month_raw_data"*: Source data on credit card by customer at the end of each month.
-- File *"fact_txn_month_raw_data"*: Source data on monthly transactions posted to the General Ledger.
-- File *"kpi_asm_data"*: Monthly business performance data by each ASM (Area Sales Manager).
-
 ### Flow Chart 
 ---
 ![image_alt](https://github.com/pklinh29/Data-Project-/blob/01d7d7a48f6567a7f8d475ea6fcde100c8d21487/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202025-05-11%20lu%CC%81c%2011.06.45.png)
     
 ### Steps:
 ---
-**1. Data Import**
+**1.Determine the Output**
+- After understanding the tasks of the CFO, I proceeded to define the output as two tables:
+
+    - “report_tong_hop” includes:
+        + area_code (area code)
+        + kpi_month (reporting month)
+        + report_id (evaluation criterion ID)
+        + total_value (total value)
+    - “report_rank_asm” includes:
+        + area_code (area code)
+        + kpi_month (reporting month)
+        + sale_name (ASM names)
+        + email (ASM emails)
+        + report_id (evaluation criterion ID)
+        + total_value (total value)
+          
+**2.Data Collection**
+- After defining the output, I proceeded to collect data to generate these outputs:
+
+    + I met with the Operations team to obtain data on KPI indicators.
+    + I met with the Accounting team to obtain GL data.
+    + I met with the Business Development team to obtain metrics used to evaluate ASMs.
+- Below are the data files I have collected:
+    - File *"fact_kpi_month_raw_data"*: Source data on credit card by customer at the end of each month.
+    - File *"fact_txn_month_raw_data"*: Source data on monthly transactions posted to the General Ledger.
+    - File *"kpi_asm_data"*: Monthly business performance data by each ASM (Area Sales Manager).
+
+
+
+**3. Data Import**
 - I converted data from *xlsx* files to *csv* format and imported them into DBeaver using direct operations on DBeaver's interface.
 
-**2. Creating Dim and Fact Tables**
+**4. Creating Dim and Fact Tables**
 - First, I identified the desired output to determine the entities to be created and the necessary attributes for each entity.
   - *Creating Dim Tables*:
       - Dim tables are used to store basic information for easier data retrieval. I constructed these tables directly in Excel.
@@ -41,18 +64,18 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
         - Refer to : Section 1 in file *"PostgreSQL_main.docx"*
         - Refer to : Section 1 in file *"PostgreSQL_modeling_data.docx"*
               
-**3. Writing Stored Procedures**
+**5. Writing Stored Procedures**
 - I developed stored procedures to automatically load raw data into the existing dim and fact tables (data accumulated monthly). 
   - Refer to : Section 2 in file *"PostgreSQL_main.docx"*
  
 - Additionally, I developed stored procedures to accurately extract monthly data from the tables populated by the previous procedures, making it easier to compare values.
   - Refer to : Section 2 in file *"PostgreSQL_modeling_data.docx"*
     
-**4. Connect DBeaver and Tableau**
+**6. Connect DBeaver and Tableau**
 - After populating the data into the tables, I connected DBeaver and Tableau and wrote direct queries to extract the data in the desired format for visualization purposes in Tableau.
   - Refer to : Section 3 in file *"PostgreSQL_main.docx"*
 
-**5.Create Dashboards**
+**7.Create Dashboards**
 
   - After successfully executing the direct query, I used Tableau to create individual charts and combined them to form the following    dashboards:
 
