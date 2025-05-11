@@ -2,10 +2,11 @@
 ## Table Of Contents 
 ---
 - [Background](#background)
-- [Data Source](#data-source)
 - [Flow Chart](#flow-chart)
 - [Steps](#steps)
-- [Achievements](#achievements)
+- [ Business Value Achievements](#business-value-achievements)
+- [Individual Achievements](#individual-achievements)
+
 
 
 ### Background
@@ -91,7 +92,11 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
 
        - Refer to : [My Dashboards](https://public.tableau.com/shared/TCDPPZMWY?:display_count=n&:origin=viz_share_link)
 
-### Achievements
+### Business Value Achievements 
+- This project provides the management team with a comprehensive overview of the company’s operations through reports on business performance, revenue, expenses, and ASM performance evaluation, enabling them to devise appropriate business strategies.
+
+
+### Individual Achievements
 ---
 - ***Enhanced Financial Business Understanding***:
     - Through this project, I gained a clearer understanding of financial business operations, including how to clearly define my responsibilities and align them with the CFO’s objectives in monitoring the overall business performance and individual regional performance.
