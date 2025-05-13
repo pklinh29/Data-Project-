@@ -23,6 +23,9 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
         + kpi_month (reporting month)
         + report_id (evaluation criterion ID)
         + total_value (total value)
+     - For example:
+        ![image_alt](https://github.com/pklinh29/Data-Project-/blob/1c4aece5d5beac0c52dd8e8484e06806af5a4136/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202025-05-13%20lu%CC%81c%2017.44.31.png)
+
     - “report_rank_asm” includes:
         + area_code (area code)
         + kpi_month (reporting month)
@@ -30,6 +33,8 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
         + email (ASM emails)
         + report_id (evaluation criterion ID)
         + total_value (total value)
+    - For example:
+        ![image_alt](https://github.com/pklinh29/Data-Project-/blob/1c4aece5d5beac0c52dd8e8484e06806af5a4136/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202025-05-13%20lu%CC%81c%2017.44.57.png)
           
 **2.Data Collection**
 - After defining the output, I proceeded to collect data to generate these outputs:
