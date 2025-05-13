@@ -2,7 +2,6 @@
 ## Table Of Contents 
 ---
 - [Background](#background)
-- [Flow Chart](#flow-chart)
 - [Steps](#steps)
 - [ Business Value Achievements](#business-value-achievements)
 - [Individual Achievements](#individual-achievements)
@@ -13,10 +12,6 @@
 --- 
 The CFO wants to monitor the overall business performance of the entire company and its regions to assess operational efficiency and identify existing issues. Additionally, he wants to evaluate the performance of ASMs.
 Understanding the CFO’s objectives and requirements, I initiated this project to address those needs.
-
-### Flow Chart 
----
-![image_alt](https://github.com/pklinh29/Data-Project-/blob/01d7d7a48f6567a7f8d475ea6fcde100c8d21487/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202025-05-11%20lu%CC%81c%2011.06.45.png)
     
 ### Steps:
 ---
@@ -47,7 +42,10 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
     - File *"fact_txn_month_raw_data"*: Source data on monthly transactions posted to the General Ledger.
     - File *"kpi_asm_data"*: Monthly business performance data by each ASM (Area Sales Manager).
 
+**Flow Chart**
 
+- After collecting the data, I proceeded with the following steps as described in the flowchart below:
+![image_alt](https://github.com/pklinh29/Data-Project-/blob/01d7d7a48f6567a7f8d475ea6fcde100c8d21487/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202025-05-11%20lu%CC%81c%2011.06.45.png)
 
 **3. Data Import**
 - I converted data from *xlsx* files to *csv* format and imported them into DBeaver using direct operations on DBeaver's interface.
@@ -90,8 +88,9 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
     - Dashboard ***“ASM’s Performance Evaluation Dashboard”***: A dashboard evaluating ASMs, illustrating the distribution of ASMs by region each month through charts, with insights and recommended actions.
             
 
-       - Refer to : [My Dashboards](https://public.tableau.com/shared/TCDPPZMWY?:display_count=n&:origin=viz_share_link)
-
+       - Refer to : [My Dashboards](https://public.tableau.com/views/DataProject_17471311261490/BocoKD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+         
+         
 ### Business Value Achievements 
 ---
 - This project provides the management team with a comprehensive overview of the company’s operations through reports on business performance, revenue, expenses, and ASM performance evaluation, enabling them to devise appropriate business strategies.
