@@ -53,8 +53,39 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
 ![image_alt](https://github.com/pklinh29/Data-Project-/blob/01d7d7a48f6567a7f8d475ea6fcde100c8d21487/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202025-05-11%20lu%CC%81c%2011.06.45.png)
 
 **3. Data Import**
-- I converted data from *xlsx* files to *csv* format and imported them into DBeaver using direct operations on DBeaver's interface.
-
+- I converted data from *"xlsx"* files to *"csv"* format and imported them into DBeaver using direct operations on DBeaver's interface.
+- First, I created the tables "dim_city_structure", "dim_rpt_criteria_structure", and "dim_rpt_rank_asm" to insert data. The syntax is as follows:
+  - Create "dim_city_structure" :
+    ```sql
+    create table finalproject.dim_city_structure(
+    ma_tinh_thanh varchar(1024),
+    danh_sach_vung varchar(1024),
+    parent_id varchar(1024)
+    )
+    ```
+    + In this table:
+        + *ma_tinh_thanh*: The unique identifier for each province/city and the code representing each region.
+        + *danh_sach_vung*: The full name of each province/city and region.
+        + *parent_id*: The region code to which each province/city belongs.
+          
+  - Create "dim_rpt_criteria_structure" :
+    ```sql
+    create table finalproject.dim_rpt_criteria_structure(
+    report_id int8,
+    report_code varchar(1024),
+    name varchar(1024),
+    report_parent_id int8,
+    report_level int8,
+    sortorder int8
+    )
+    ```
+    + In this table:
+        + *report_id*: The sequential identifier for each business performance evaluation criterion, arranged in ascending order.
+        + *report_code*: The code representing each business performance evaluation criterion.
+        + *name*: The full name of each business performance evaluation criterion.
+        + *report_parent_id*: The code of the main criteria group to which the sub-criteria belong.
+        + *sortorder*: A sequence of numbers used to arrange the criteria in the correct order to prevent disorganization.
+      
 **4. Creating Dim and Fact Tables**
 - First, I identified the desired output to determine the entities to be created and the necessary attributes for each entity.
   - *Creating Dim Tables*:
