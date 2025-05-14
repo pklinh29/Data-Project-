@@ -205,8 +205,8 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
           
         ```sql
          INSERT INTO finalproject.dim_rpt_criteria_structure
-        (report_id,report_code,"name",report_parent_id,report_level,sortorder)
-        VALUES
+         (report_id,report_code,"name",report_parent_id,report_level,sortorder)
+         VALUES
     	 (1,'P01','I/ Lợi nhuận trước thuế',-1,0,1000000),
     	 (2,'I00','1.Thu nhập từ hoạt động thẻ ',1,1,1100000),
     	 (3,'I01','1.1.Lãi trong hạn ',2,2,1100100),
@@ -238,9 +238,9 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
 	    + Insert into table "dim_rpt_rank_asm" :
    
         ```sql
-          INSERT INTO finalproject.dim_rpt_rank_asm
-          (report_id,report_code,"name",report_level,sortorder)
-          VALUES
+         INSERT INTO finalproject.dim_rpt_rank_asm
+         (report_id,report_code,"name",report_level,sortorder)
+         VALUES
          (1,'LTN01','ltn_avg',1,1100000),
          (2,'OS01','psdn_avg',1,1200000),
          (3,'ARA01','approval_rate_avg',1,1300000),
