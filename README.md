@@ -273,14 +273,29 @@ Understanding the CFO’s objectives and requirements, I initiated this project 
   - After successfully executing the direct query, I used Tableau to create individual charts and combined them to form the following    dashboards:
 
     - Dashboard ***“OBJECTIVE”***: Displays the inputs, outputs, and a flowchart of the data processing workflow.
+	![image_alt](https://github.com/pklinh29/Data-Project-/blob/ea67545713759ac0c4ce1a9855232ec92ad5dce2/objective.png)
+
+
     - Dashboard ***“Business Term Definition”***: Describes business terms (including abbreviations and explanations) to help the audience better understand the context.
+	![image_alt](https://github.com/pklinh29/Data-Project-/blob/ea67545713759ac0c4ce1a9855232ec92ad5dce2/description.png)
+
     - Dashboard ***“Monthly Business Performance Report”***: A summary of the company’s business performance.
+	![image_alt](https://github.com/pklinh29/Data-Project-/blob/ea67545713759ac0c4ce1a9855232ec92ad5dce2/table%20business.png)
+
     - Dashboard ***“ASM’s Performance Evaluation Report”***: A report assessing the performance of ASMs in each region based on KPI metrics.
+      	![image_alt](https://github.com/pklinh29/Data-Project-/blob/ea67545713759ac0c4ce1a9855232ec92ad5dce2/table%20asm.png)
+      
     - Dashboard ***“Business Performance Dashboard”***: A comprehensive dashboard that reports business performance across regions (costs, profits, metrics) through various charts, highlighting key insights.
+   	![image_alt](https://github.com/pklinh29/Data-Project-/blob/ea67545713759ac0c4ce1a9855232ec92ad5dce2/bao%20cao%20kq%20hd%20kd.png)
+      
     - Dashboard ***“Monthly Revenue Dashboard”***: A monthly revenue report for each region using charts to present data and extract insights.
+	![image_alt](https://github.com/pklinh29/Data-Project-/blob/ea67545713759ac0c4ce1a9855232ec92ad5dce2/revenue.png)
+
     - Dashboard ***“Monthly Expense Dashboard”***: A monthly expense report for each region, including cost structure analysis through charts, with insights and proposed solutions.
+	![image_alt](https://github.com/pklinh29/Data-Project-/blob/ea67545713759ac0c4ce1a9855232ec92ad5dce2/expense.png)
+
     - Dashboard ***“ASM’s Performance Evaluation Dashboard”***: A dashboard evaluating ASMs, illustrating the distribution of ASMs by region each month through charts, with insights and recommended actions.
-            
+      	![image_alt](https://github.com/pklinh29/Data-Project-/blob/ea67545713759ac0c4ce1a9855232ec92ad5dce2/asm%20dashboard.png)
 
        - Refer to : [Demo Online](https://public.tableau.com/views/DataProject_17471311261490/BocoKD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
          
